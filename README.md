@@ -20,17 +20,12 @@ message	status不为200有值，错误描述	string
 attachment	实际返回的具体数据	object
 
 
-
-
-
-
-## 1.获取所有上线的币种：
-
-    - 请求方式：POST
+    
+1. 获取所有上线的币种
+    - 请求方式：POST，接入方服务端调用
     - url：`https://{host}/quote/public/`
     - 传入值：
     
-
 返回数据
 
 id
