@@ -24,31 +24,23 @@ attachment	实际返回的具体数据	object
 1. 获取所有上线的币种
     - 请求方式：POST，接入方服务端调用
     - url：`https://{host}/quote/public/`
-    - 传入值：
+    - 传入值：空
+    - 返回值data信息：
     
-返回数据
+    | 字段名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | id | int | 唯一标识 |
+    | last | string | 最新成交价 |
+    | lowestAsk | string | 卖一价 |
+    | highestBid | int | 买一价 |
+    | percentChange | string | 24小时涨跌幅 |
+    | quoteVolume | string | 24小时成交量 |
+    | isFrozen | string | 是否冻结 默认都为0 |
+    | high24hr | string | 24小时最高价 |
+    | low24hr | string | 24小时最低价 |
+    
 
-id
-唯一标识	int
-last
-最新成交价	string
-lowestAsk
-卖一价	string
-highestBid
-买一价	string
-percentChange
-24小时涨跌幅	string
-baseVolume
 
-string
-quoteVolume
-24小时成交量	string
-isFrozen
-是否冻结 默认都为0	string
-high24hr
-24小时最高价	string
-low24hr
-24小时最低价	string
 
 
 
