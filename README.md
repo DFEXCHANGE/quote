@@ -1,4 +1,4 @@
-﻿﻿接口列表
+﻿# dfex行情接口
 
 1.获取所有上线的币种
 
@@ -24,10 +24,13 @@ attachment	实际返回的具体数据	object
 
 
 
-接口一：获取所有上线的币种：
+## 1.获取所有上线的币种：
 
-接口地址	请求方式
-/quote/public	get
+    - 请求方式：POST
+    - url：`https://{host}/quote/public/`
+    - 传入值：
+    
+
 返回数据
 
 id
