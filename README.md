@@ -17,11 +17,12 @@ https://www.dfex.com/polarisex
 
 接口统一返回格式：
 
-status	返回200代表成功	int
-message	status不为200有值，错误描述	string
-attachment	实际返回的具体数据	object
-
-
+   | 字段名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | attachment | object | 接口数据 |
+    | status | int | 接口状态成功显示200 |
+    | message | string | 描述 |
+    
     
 1. 获取所有上线的币种
     - 请求方式：POST
