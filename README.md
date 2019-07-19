@@ -14,15 +14,14 @@
 
 https://www.dfex.com/polarisex
 
+0. 接口统一返回格式
 
-接口统一返回格式：
-
-   | 字段名 | 数据类型 | 说明 |
+    | 字段名 | 数据类型 | 说明 |
     | --- | --- | --- |
     | attachment | object | 接口数据 |
     | status | int | 接口状态成功显示200 |
     | message | string | 描述 |
-    
+   
     
 1. 获取所有上线的币种
     - 请求方式：POST
