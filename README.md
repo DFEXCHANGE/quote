@@ -129,7 +129,7 @@ attachment	实际返回的具体数据	object
         | ﻿amount | decimal | 成交金额 |
         | ﻿number | decimal | 成交数量 |
         | ﻿price | decimal | 成交价 |
-        | ﻿type | number | 买卖方向 ﻿1买，2卖 |
+        | ﻿type | number | 买卖方向 |
         | ﻿date | number | ﻿成交时间 |
 
 
