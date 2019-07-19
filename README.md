@@ -68,7 +68,7 @@ attachment	实际返回的具体数据	object
     
         | 字段名 | 数据类型 | 说明 |示例|
         | --- | --- | --- | --- |
-        | coins | String | 基础币英文名_交易币英文名 |﻿eth_btc|
+        | coins | String | 基础币英文名_交易币英文名 |usdt_btc|
         | limit | int | 每次拉取多少条深度 |20|
         
     - 返回值data信息：
@@ -111,7 +111,26 @@ attachment	实际返回的具体数据	object
     "status": 200
 }
 ```
+4. 获取某个交易对成交列表
 
+ - 请求方式：POST
+    - url：`https://{host}/quote/tradeHistory`
+    - 传入值：
+    
+        | 字段名 | 数据类型 | 说明 |示例|
+        | --- | --- | --- | --- |
+        | coins | String | 基础币英文名_交易币英文名 |usdt_btc|
+        | limit | int | 每次拉取多少条深度 |20|
+        
+    - 返回值data信息：
+    
+        | 字段名 | 数据类型 | 说明 |
+        | --- | --- | --- |
+        | ﻿amount | decimal | 成交金额 |
+        | ﻿number | decimal | 成交数量 |
+        | ﻿price | decimal | 成交价 |
+        | ﻿type | number | 买卖方向 ﻿1买，2卖 |
+        | ﻿date | number | ﻿成交时间 |
 
 
 
