@@ -45,9 +45,10 @@ https://www.dfex.com/polarisex
 
 
 2. 获取某个交易对实时行情
-    - 请求方式：POST
+    - 请求方式：GET
     - url：`https://{host}/quote/realTime`
-    - 传入值：空
+    - 传入值：coins
+    - 
     - 返回值data信息：
     
     | 字段名 | 数据类型 | 说明 |
