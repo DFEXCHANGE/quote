@@ -24,8 +24,9 @@ www.dfex.com/polarisex
    
     
 1. 获取所有上线的币种
-    - 请求方式：POST
+    - 请求方式：GET
     - url：`https://{host}/quote/public/`
+    - 示例：https://www.dfex.com/polarisex/quote/public
     - 传入值：空
     - 返回值data信息：
     
@@ -65,7 +66,7 @@ www.dfex.com/polarisex
 
 
 3. 获取某个交易对最新深度
-    - 请求方式：POST
+    - 请求方式：GET
     - url：`https://{host}/quote/tradeDeepin`
     - 示例：https://www.dfex.com/polarisex/quote/tradeDeepin?coins=usdt_btc
     - 传入值：
@@ -117,8 +118,9 @@ www.dfex.com/polarisex
 ```
 4. 获取某个交易对成交列表
 
- - 请求方式：POST
+ - 请求方式：GET
     - url：`https://{host}/quote/tradeHistory`
+    - 示例：https://www.dfex.com/polarisex/quote/tradeHistory?coins=usdt_btc&limit=5
     - 传入值：
     
         | 字段名 | 数据类型 | 说明 |示例|
