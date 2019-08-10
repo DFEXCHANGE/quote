@@ -12,7 +12,7 @@
 
 接口访问域：
 
-https://www.dfex.com/polarisex
+www.dfex.com/polarisex
 
 0. 接口统一返回格式
 
@@ -48,7 +48,7 @@ https://www.dfex.com/polarisex
     - 请求方式：GET
     - url：`https://{host}/quote/realTime`
     - 传入值：coins
-    - 
+    - 示例：https://www.dfex.com/polarisex/quote/realTime?coins=usdt_btc
     - 返回值data信息：
     
     | 字段名 | 数据类型 | 说明 |
@@ -67,6 +67,7 @@ https://www.dfex.com/polarisex
 3. 获取某个交易对最新深度
     - 请求方式：POST
     - url：`https://{host}/quote/tradeDeepin`
+    - 示例：https://www.dfex.com/polarisex/quote/tradeDeepin?coins=usdt_btc
     - 传入值：
     
         | 字段名 | 数据类型 | 说明 |示例|
